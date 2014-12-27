@@ -1,3 +1,20 @@
+## THIS IS A FORK
+
+This fork was made as example app based on `express-bem`, powered by `bemtree` & `bemhtml`, so there are no `bemjson.js` files in bundles.
+
+To start app with `bem-tools` maker exec:
+```
+PORT=3030 node app.js
+```
+
+To start app with `enb` maker exec:
+```
+PORT=3030 EXPRESS_BEM_MAKER=enb node app.js
+```
+
+That's all.
+
+
 # Stub to start a new [BEM](https://bem.info) project
 
 Project-stub is a template project repository used for BEM projects creation. It contains the minimal configuration files and folders you will need for quick start from scratch. 
