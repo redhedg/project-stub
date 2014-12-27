@@ -40,9 +40,12 @@ bem.engine('fullstack', '.bem', ['.bemhtml.js', '.bemtree.js'], function (name, 
   });
 });
 
+// set default engine extension
+app.set('view engine', '.bem');
+
 // routes
 app.get('/', function (req, res) {
-  res.render('index.bem', {
+  res.render('index', {
     block : 'page',
     content : 'asdasd'
   });
