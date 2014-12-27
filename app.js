@@ -42,8 +42,9 @@ bem.engine('fullstack', '.bem', ['.bemhtml.js', '.bemtree.js'], function (name, 
 
 // routes
 app.get('/', function (req, res) {
-  res.render('index', {
-    block : 'page'
+  res.render('index.bem', {
+    block : 'page',
+    content : 'asdasd'
   });
 });
 

@@ -13,8 +13,8 @@
     "bem-environ": "~1.4.0",
     "express": "^4.10.6",
     "express-bem": "^0.2.2",
-    "express-bem-bemhtml": "0.0.1",
-    "express-bem-bemtree": "0.0.1",
+    "express-bem-bemhtml": "0.1.0",
+    "express-bem-bemtree": "0.1.0",
     "express-bem-tools-make": "^0.1.1",
     "vow": "^0.4.7"
   },
