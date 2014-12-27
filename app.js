@@ -12,7 +12,8 @@ var bem = ExpressBem({
 app.bem = bem.bindTo(app);
 
 if (process.env.NODE_ENV !== 'production') {
-  bem.usePlugin('express-bem-tools-make', {verbosity: 'debug'});
+  bem.usePlugin(process.env.EXPRESS_BEM_MAKER === 'enb' ? 'express-bem-enb-make' : 'express-bem-tools-make',
+    {verbosity: 'debug'});
 }
 
 // register engines

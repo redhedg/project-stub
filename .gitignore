@@ -11,6 +11,7 @@ npm-debug.log
 .enb/tmp/
 *bundles*/*/*.*
 !*bundles*/*/*.bemdecl.js
+*bundles*/*/*.*.bemdecl.js
 !*bundles*/.bem/*
 *pages*/*/*.*
 !*pages*/*/*.bemdecl.js
