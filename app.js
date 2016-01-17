@@ -47,8 +47,10 @@ app.set('view engine', '.bem');
 // routes
 app.get('/', function (req, res) {
   res.render('index', {
-    block : 'page',
-    content : 'asdasd'
+    bemjson {
+      block : 'page',
+      content : 'asdasd'
+    }
   });
 });
 
